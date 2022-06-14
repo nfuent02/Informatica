@@ -8,7 +8,7 @@ WORD_LENGTH = 5
 def read_words(filename, length):
     """
     This function reads the filename. Each line contains a word.
-    This function returns a list with the words with the indicated length
+    This function returns a list with the words with the indicated length.
     """
     lst = []
     with open(filename, "r", encoding='utf8') as fwords:
